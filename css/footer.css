@@ -1,0 +1,50 @@
+#footer {
+    background-color: #e4eaef;
+    width: 100%;
+    height: 15%;
+    font-family: sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+#footer-menu {
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 20px;
+    height: 110px;
+    max-width: 100%;
+    /* background-color: palegreen; */
+}
+
+#copyright {
+    margin: 10px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+
+#footer-menu li{
+    list-style-type: none;
+    font-size: 15px;
+    margin: 8px;
+}
+
+#footer-menu li a {
+   text-decoration: none;
+   color: grey;
+   padding: 4px;
+}
+
+#footer-menu li a:link {
+    background-color: #e4eaef;
+    
+}
+
+#footer-menu li a:active {
+    background-color: #469FFF;
+}
+
+#footer-menu li a:hover {
+    background-color: #336BAE;
+    color: white;
+}
